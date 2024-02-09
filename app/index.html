@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Scale Helper</title>
+    <link rel="shortcut icon" href="images/icon10.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <main class="main">
+      <div class="content__wrapper">
+        <div class="content__notesbtn">
+          <button class="content__btn btn">C</button>
+          <button class="content__btn btn">C# / Db</button>
+          <button class="content__btn btn">D</button>
+          <button class="content__btn btn">D# / Eb</button>
+          <button class="content__btn btn">E</button>
+          <button class="content__btn btn">F</button>
+          <button class="content__btn btn">F# / Gb</button>
+          <button class="content__btn btn">G</button>
+          <button class="content__btn btn">G# / Ab</button>
+          <button class="content__btn btn">A</button>
+          <button class="content__btn btn">A# / Bb</button>
+          <button class="content__btn btn">B</button>
+        </div>
+        <div class="content__scales">
+          <div class="content__scales-wrapper">
+            <h3 class="content__title">Major scale:</h3>
+            <div class="content__scales-output content__scales--major">
+              <h4 id="majorScale" class="content__scale-descr">...</h4>
+            </div>
+          </div>
+
+          <div class="content__scales-wrapper">
+            <h3 class="content__title">Minor scale:</h3>
+            <div class="content__scales-output content__scales--minor">
+              <h4 id="minorScale" class="content__scale-descr">...</h4>
+            </div>
+          </div>
+
+          <div class="content__scales-wrapper">
+            <h3 class="content__title">Major pentatonic:</h3>
+            <div class="content__scales-output content__scales--majorpenta">
+              <h4 id="majorPenta" class="content__scale-descr">...</h4>
+            </div>
+          </div>
+
+          <div class="content__scales-wrapper">
+            <h3 class="content__title">Minor pentatonic:</h3>
+            <div class="content__scales-output content__scales--minorpenta">
+              <h4 id="minorPenta" class="content__scale-descr">...</h4>
+            </div>
+          </div>
+
+          <div class="content__scales-wrapper">
+            <h3 class="content__title">Blues scale:</h3>
+            <div class="content__scales-output content__scales--bluesscale">
+              <h4 id="bluesScale" class="content__scale-descr">...</h4>
+            </div>
+          </div>
+
+          <div class="content__scales-wrapper">
+            <h3 class="content__title">Dorian mode:</h3>
+            <div class="content__scales-output content__scales--dorianminor">
+              <h4 id="dorianMinor" class="content__scale-descr">...</h4>
+            </div>
+          </div>
+
+          <div class="content__scales-wrapper">
+            <h3 id="septaChord" class="content__title">Minor seventh chord:</h3>
+            <div class="content__scales-output content__scales--1357steps">
+              <h4 id="1357Steps" class="content__scale-descr">...</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
